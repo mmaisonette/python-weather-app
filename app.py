@@ -11,6 +11,12 @@ Routes:
 
 Attributes:
     app (Flask): The Flask application instance.
+
+Requirements:
+    - flask: For loading the Flask web application.
+    - render_template: For rendering the HTML page.
+    - request: For making HTTP requests.
+    - weather: For calling the weather app.
 """
 
 from flask import Flask, render_template, request
@@ -28,11 +34,11 @@ def index():
     the get_weather function, and passes the data to the template for rendering.
 
     Returns:
-        str: Rendered HTML template with weather data if available, or None if GET request.
+        - str: Rendered HTML template with weather data if available, or None if GET request.
 
     Form Parameters:
-        cityName (str): The name of the city to fetch weather data for.
-        countryName (str): The name of the country where the city is located.
+        - cityName (str): The name of the city to fetch weather data for.
+        - countryName (str): The name of the country where the city is located.
     """
 
     data = None
