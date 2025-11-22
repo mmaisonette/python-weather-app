@@ -66,3 +66,7 @@ API_KEY=your_api_key_here
 ## License
 
 This project is open source and available under the MIT License.
+
+## Legal Statement
+
+ This project was made for study purposes only. No production usage is recommended!
