@@ -2,6 +2,8 @@
 
 A simple weather application built with Python and Flask that fetches and displays weather information.
 
+![index-page](image.png)
+
 ## Features
 
 - Get current weather conditions.
