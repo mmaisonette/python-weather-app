@@ -37,6 +37,16 @@ python3 app.py
 
 Then navigate to `http://localhost:5000` in your web browser to access the weather app.
 
+## Testing
+
+Run the `pytest` suite to validate the weather module:
+
+```bash
+pytest test_weather.py
+```
+
+The test in `test_weather.py` monkeypatches the helper functions to avoid live API calls and asserts that `weather.main()` returns a `WeatherData` object with the expected attributes.
+
 ## Requirements
 
 - Python 3.x (preferable version 3.12+)
